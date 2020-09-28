@@ -1,0 +1,79 @@
+fieldset{
+	text-align: center;
+	font-size: 2em;
+
+}
+label{
+	color: gold;
+}
+img {
+  border-radius: 50%;
+}
+input[type=password]{
+  text-align: center; 
+  width: 25%;
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;	
+}
+input[type=text] {
+  text-align: center; 
+  width: 25%;
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email]{
+  text-align: center; 	
+  width: 25%;
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+header{
+	text-align: center;
+	font-size: 3em;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.resetbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.resetbtn, .signupbtn {
+  float: center;
+  width: 25%;
+}
+ 
